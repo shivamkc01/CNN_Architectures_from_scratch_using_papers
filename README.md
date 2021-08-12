@@ -1,8 +1,7 @@
 <h1><b>U-Net: Convolutional Networks for Biomedical Image Segmentation</b></h1>
 <img src=">
 <h3>The link for the U-Net paper</h3>
-<h4>
-U-Net is an architecture for semantic segmentation.
+<h4>U-Net is an architecture for semantic segmentation.
 It consists of a contracting path and an expansive path. 
 The contracting path follows the typical architecture of a convolutional network. 
 It consists of the repeated application of two 3x3 convolutions (unpadded convolutions), 
@@ -13,5 +12,4 @@ Every step in the expansive path consists of an upsampling of the feature map fo
 and two 3x3 convolutions, each followed by a ReLU.
 The cropping is necessary due to the loss of border pixels in every convolution.
 At the final layer a 1x1 convolution is used to map each 64-component feature vector to the desired number of classes.
-In total the network has 23 convolutional layers.
-</h4>
+In total the network has 23 convolutional layers.</h4>
