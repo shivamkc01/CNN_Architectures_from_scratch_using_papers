@@ -1,4 +1,4 @@
-#########################################################################################
+#####################################################################################
 </br>
 <h1><b>U-Net: Convolutional Networks for Biomedical Image Segmentation</b></h1>
 
@@ -19,7 +19,7 @@ In total the network has 23 convolutional layers.</h4>
 <img src="https://raw.githubusercontent.com/zhixuhao/unet/master/img/u-net-architecture.png" alt="U-Net">
 </br>
 
- ########################################################################################
+ #####################################################################################
  
  <h1><b>Road Ectraction by Deep Residual U-Net</b></h1>
  
